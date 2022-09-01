@@ -1,11 +1,5 @@
-*
-{
-  font-size:  large;
-}
 .center
 {
-    height:100%;
-    width:100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -13,17 +7,19 @@
 }
 .uppercontainer
 {
+    display:flex;
     height:15%;
     width: 60%;
     background-color: white;
     align-items: center;
     text-align: center;
+    justify-content: center;
     padding-left: 10px;
     padding-right: 10px;
 }
 .lowercontainer
 {
-    height: 100%;
+    height: 85%;
     width: 60%;
     background-color: lightgrey;
     padding-left: 10px;
@@ -35,14 +31,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-bottom: 1%; 
 }
 
 .items
 {
     display: flex;
     align-self: flex-start;
-    width: 50%;
+    width: 49%;
     padding-bottom: 10px;
+    padding-right: 1%;
     font-size: medium;
 }
 
@@ -69,43 +67,58 @@
     width: 80%;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.textarearesize
+{
     width: 100%;
-  }
-  
-  .column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-  }
+    height: 175px;
+}
 
-  .radio-buttons {
+.radio-buttons {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin:0;
-  }
+}
 
-  .radiocontainer {
+.radiocontainer {
     display: inline-flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
     align-items: center;
-  }
-  
-  .radiocontainer input,
-  .radiocontainer label {
+}
+
+.radiocontainer input,
+.radiocontainer label {
     margin: 0;
-  }
-  
-  .radiocontainer input {
-    width: 20px;
-  }
-  
-  .radiocontainer label {
-    width: calc(100% - 20px);
-  }
+}
+
+.radiocontainer input {
+    width: 5%;
+}
+
+.radiocontainer label {
+    width: calc(100% - 5%);
+}
+
+.heading
+{
+    font-size: large;
+    color:darkred;
+    font-weight: bold;
+}
+
+.submit-button
+{
+    width: 25%;
+    height:50%;
+    background: linear-gradient(#000000, #575757);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+.centerdiv
+{
+    display: flex;
+    justify-content: center;
+}

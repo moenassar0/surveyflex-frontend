@@ -7,11 +7,12 @@
 
     <body bgcolor="grey">
         <div class="center">
-            <div class="uppercontainer"><h2>Follow Up Survey</h2></div>
+            <div class="uppercontainer"><h1>Follow Up Survey</h1></div>
             <div class="lowercontainer">
+                <div class="freespace"></div>
                 <div class="halfblock">
-                    <div class="items">When did you use our service?</div>
-                    <div class="items">Name of product or service?</div>
+                    <div class="items heading">When did you use our service?</div>
+                    <div class="items heading">Name of product or service?</div>
                 </div>
 
                 <div class="halfblock">
@@ -22,7 +23,7 @@
 
                 <div class="freespace"></div>
 
-                <div class="halfblock">Overall, how satisfied are you with the product or service?</div>
+                <div class="halfblock heading">Overall, how satisfied are you with the product or service?</div>
 
                 <div class="halfblock">
                     <span class="items radiocontainer">
@@ -45,7 +46,7 @@
 
                 <div class="freespace"></div>
 
-                <div class="halfblock">Did our product or service meet your expectations?</div>
+                <div class="halfblock heading">Did our product or service meet your expectations?</div>
                 <div class="halfblock">
                     <span class="items radiocontainer">
                         <label for="y" class="radiolabel">Yes</label>
@@ -59,6 +60,73 @@
 
                 <div class="freespace"></div>
 
+                <div class="halfblock heading">Would you recommend this product or service to a friend?</div>
+                <div class="halfblock">
+                    <span class="items radiocontainer">
+                        <label for="yes" class="radiolabel">Yes</label>
+                        <input type="radio" id="yes" name="recommend" class="selector" value="Y">
+                    </span>
+                    <span class="items radiocontainer">
+                        <label for="no" class="radiolabel">No</label>
+                        <input type="radio" id="no" name="recommend" class="selector" value="N">
+                    </span>
+                </div>
+
+                <div class="freespace"></div>
+                
+                <div class="halfblock heading">What aspect of the product or service were you most satisfied with?</div>
+                <div class="halfblock">
+                    <span class="items radiocontainer">
+                        <label for="mvery" class="radiolabel">Very satisfied</label><br>
+                        <input type="radio" id="mvery" class="selector" name="most" value="Very satisfied">
+                        <label for="mneutral" class="radiolabel">Neutral</label><br>
+                        <input type="radio" id="mneutral" class="selector" name="most" value="Neutral">
+                        <label for="mveryunsatisfied" class="radiolabel">Very unsatisfied</label>
+                        <input type="radio" id="mveryunsatisfied" class="selector" name="most" value="Very unsatisfied">
+                    </span>
+                    <span class="items radiocontainer">
+                        <label for="msatisfied" class="radiolabel">Satisfied</label><br>
+                        <input type="radio" id="msatisfied" class="selector" name="most" value="Satisfied">
+                        <label for="munsatisfied" class="radiolabel">Unsatisfied</label><br>
+                        <input type="radio" id="munsatisfied" class="selector" name="most" value="Unsatisfied">
+                        <label for="mna" class="radiolabel">N/A</label>
+                        <input type="radio" id="mna" class="selector" name="most" value="N/A">
+                    </span>
+                </div>
+
+                <div class="freespace"></div>
+
+                <div class="halfblock heading">What aspect of the product or service were you least satisfied with?</div>
+                <div class="halfblock">
+                    <span class="items radiocontainer">
+                        <label for="lvery" class="radiolabel">Very satisfied</label><br>
+                        <input type="radio" id="lvery" class="selector" name="least" value="Very satisfied">
+                        <label for="lneutral" class="radiolabel">Neutral</label><br>
+                        <input type="radio" id="lneutral" class="selector" name="least" value="Neutral">
+                        <label for="lveryunsatisfied" class="radiolabel">Very unsatisfied</label>
+                        <input type="radio" id="lveryunsatisfied" class="selector" name="least" value="Very unsatisfied">
+                    </span>
+                    <span class="items radiocontainer">
+                        <label for="lsatisfied" class="radiolabel">Satisfied</label><br>
+                        <input type="radio" id="lsatisfied" class="selector" name="least" value="Satisfied">
+                        <label for="lunsatisfied" class="radiolabel">Unsatisfied</label><br>
+                        <input type="radio" id="lunsatisfied" class="selector" name="least" value="Unsatisfied">
+                        <label for="lna" class="radiolabel">N/A</label>
+                        <input type="radio" id="lna" class="selector" name="least" value="N/A">
+                    </span>
+                </div>
+                                    
+                <div class="freespace"></div>
+
+                <div class="halfblock">
+                    <div class="items heading">Additional comments:</div>
+                </div>
+                <div class="halfblock">
+                    <textarea class="textarearesize" placeholder="Type here..."></textarea>
+                </div>
+                <div class="halfblock centerdiv">
+                    <input class = "submit-button" type="submit">
+                </div>
             </div>
         </div>
     </body>
