@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Survery</title>
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+
+    <body bgcolor="grey">
+        <div class="center">
+            <div class="uppercontainer"><h2>Follow Up Survey</h2></div>
+            <div class="lowercontainer">
+                <div class="halfblock">
+                    <div class="items">When did you use our service?</div>
+                    <div class="items">Name of product or service?</div>
+                </div>
+
+                <div class="halfblock">
+                    <div class="items"><input type="date" class="inputresize"></div>
+                    <div class="items"><input type="text" class="inputresize"></div>
+                </div>
+                
+
+                <div class="freespace"></div>
+
+                <div class="halfblock">Overall, how satisfied are you with the product or service?</div>
+
+                <div class="halfblock">
+                    <span class="items radiocontainer">
+                        <label for="very" class="radiolabel">Very satisfied</label><br>
+                        <input type="radio" id="very" class="selector" name="satisfaction" value="Very satisfied">
+                        <label for="neutral" class="radiolabel">Neutral</label><br>
+                        <input type="radio" id="neutral" class="selector" name="satisfaction" value="Neutral">
+                        <label for="veryunsatisfied" class="radiolabel">Very unsatisfied</label>
+                        <input type="radio" id="veryunsatisfied" class="selector" name="satisfaction" value="Very unsatisfied">
+                    </span>
+                    <span class="items radiocontainer">
+                        <label for="satisfied" class="radiolabel">Satisfied</label><br>
+                        <input type="radio" id="satisfied" class="selector" name="satisfaction" value="Satisfied">
+                        <label for="unsatisfied" class="radiolabel">Unsatisfied</label><br>
+                        <input type="radio" id="unsatisfied" class="selector" name="satisfaction" value="Unsatisfied">
+                        <label for="na" class="radiolabel">N/A</label>
+                        <input type="radio" id="na" class="selector" name="satisfaction" value="N/A">
+                    </span>
+                </div>
+
+                <div class="freespace"></div>
+
+                <div class="halfblock">Did our product or service meet your expectations?</div>
+                <div class="halfblock">
+                    <span class="items radiocontainer">
+                        <label for="y" class="radiolabel">Yes</label>
+                        <input type="radio" id="y" name="expectations" class="selector" value="Yes">
+                    </span>
+                    <span class="items radiocontainer">
+                        <label for="n" class="radiolabel">No</label>
+                        <input type="radio" id="n" name="expectations" class="selector" value="No">
+                    </span>
+                </div>
+
+                <div class="freespace"></div>
+
+            </div>
+        </div>
+    </body>
+</html>

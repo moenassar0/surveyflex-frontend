@@ -1,0 +1,111 @@
+*
+{
+  font-size:  large;
+}
+.center
+{
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.uppercontainer
+{
+    height:15%;
+    width: 60%;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.lowercontainer
+{
+    height: 100%;
+    width: 60%;
+    background-color: lightgrey;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.halfblock
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.items
+{
+    display: flex;
+    align-self: flex-start;
+    width: 50%;
+    padding-bottom: 10px;
+    font-size: medium;
+}
+
+
+.radiobuttons
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.freespace
+{
+    display: flex;
+    align-self: flex-start;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.inputresize
+{
+    display: flex;
+    float: left;
+    width: 80%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+  .radio-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin:0;
+  }
+
+  .radiocontainer {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .radiocontainer input,
+  .radiocontainer label {
+    margin: 0;
+  }
+  
+  .radiocontainer input {
+    width: 20px;
+  }
+  
+  .radiocontainer label {
+    width: calc(100% - 20px);
+  }
