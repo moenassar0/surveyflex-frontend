@@ -16,6 +16,7 @@
     justify-content: center;
     padding-left: 10px;
     padding-right: 10px;
+    color: darkred;
 }
 .lowercontainer
 {
@@ -42,6 +43,7 @@
     padding-bottom: 10px;
     padding-right: 1%;
     font-size: medium;
+    color:darkred;
 }
 
 
@@ -110,15 +112,20 @@
 .submit-button
 {
     width: 25%;
-    height:50%;
+    height: 50%;
     background: linear-gradient(#000000, #575757);
     color: white;
     text-align: center;
-    font-size: 16px;
+    font-size: 70%;
 }
 
 .centerdiv
 {
     display: flex;
     justify-content: center;
+}
+
+.date
+{
+  color: grey;
 }
